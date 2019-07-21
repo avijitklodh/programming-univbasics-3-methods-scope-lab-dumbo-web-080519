@@ -13,6 +13,7 @@ def link
  puts danger
 end
 
-def any_phrase
-  return "Do A Barrel Roll!"
+def any_phrase (phrase)
+  phrase = "Do A Barrel Roll!"
+  return phrase
 end
